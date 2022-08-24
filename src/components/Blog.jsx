@@ -12,7 +12,7 @@ const Blog = () => {
       </div>
       <div className='grid  lg:grid-cols-3  lg:ml-20 lg:mr-12 mt-8'>
       <div className=' flex flex-col lg:w-[362px] lg:h-[450px] shadow-md rounded-md'>
-          <img src={vegi} className=""/>
+          <img src={vegi} alt="product" />
           <div className='lg:mr-[29px] lg:ml-[29px]'>
           <p className='text-sm mb-2  text-[#999999] '><span className='mr-2 text-onion'>Design </span> 01 October 2019</p>
           <p className='text-l lg:mb-4 font-bold text-[#4D4D4D]'>Better Than Takeout Kung Pao Chicken</p>
@@ -22,7 +22,7 @@ const Blog = () => {
         </div>
 
         <div className=' flex flex-col lg:w-[362px] lg:h-[450px] shadow-md rounded-md'>
-          <img src={vegiOn} className=""/>
+          <img src={vegiOn} alt="product"/>
           <div className='lg:mr-[29px] lg:ml-[29px]'>
           <p className='text-sm mb-2  text-[#999999] '><span className='mr-2 text-onion'>Design </span> 01 October 2019</p>
           <p className='text-l lg:mb-4 font-bold text-[#4D4D4D]'>The Best Sesame Soy Broccoli Salad</p>
@@ -32,7 +32,7 @@ const Blog = () => {
         </div>
 
         <div className=' flex flex-col lg:w-[362px] lg:h-[450px] shadow-md rounded-md'>
-          <img src={vegiTo} className=""/>
+          <img src={vegiTo} alt="product"/>
           <div className='lg:mr-[29px] lg:ml-[29px]'>
           <p className='text-sm mb-2  text-[#999999] '><span className='mr-2 text-onion'>Design </span> 01 October 2019</p>
           <p className='text-l lg:mb-4 font-bold text-[#4D4D4D]'>Better Than Takeout Kung Pao Chicken</p>

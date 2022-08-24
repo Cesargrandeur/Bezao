@@ -12,7 +12,7 @@ const Comment = () => {
         <div className='  lg:mr-72 col-span-2 shadow-md bg-white rounded-md mt-16 mb-40 flex justify-center p-6 items-center'>
         
             <div className='  w-full	 px-8 my-8 ml-8'>
-                <img className='' src={samson}/>
+                <img alt="samson" src={samson}/>
                 <p className='mt-2 font-bold text-[#363A40] text-center'>John <br></br> Samson</p>
                 <p className='text-[#67758D] text-[10px] text-center'>ENUGU NIGERIA</p>
                 </div>
@@ -20,7 +20,7 @@ const Comment = () => {
             
                 <p>White dwarf a still more glorious dawn awaits tingling of the spine emerged into consciousness Vangelis shores of the cosmic ocean. Tendrils of gossamer clouds kindling the energy hidden in matter concept of the number one permanence.</p>
             </div>
-            <img className=' w-[16px] mb-40 mr-4' src={quote}/>
+            <img className=' w-[16px] mb-40 mr-4' alt='quote' src={quote}/>
         </div>
       
     </div>

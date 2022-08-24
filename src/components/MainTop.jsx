@@ -42,8 +42,8 @@ const MainTop = () => {
                     </form>
                     {/* Image */}
                     <div className='flex  justify-end'>
-                        <img className='lg:w-[600px]' src={bgImg } alt="/" />
-                        <div className=' hidden lg:block mt-96 '><img className = "lg:w-[150px]" src={bgImgb}/></div>
+                        <img className='lg:w-[600px]' src={bgImg } alt="rice" />
+                        <div className=' hidden lg:block mt-96 '><img className = "lg:w-[150px]" alt='comment' src={bgImgb}/></div>
                     </div>
                     
                 </div>

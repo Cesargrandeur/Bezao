@@ -29,7 +29,7 @@ const Products = () => {
       <div className='grid sm:grid-cols-2 lg:grid-cols-3  lg:ml-20 lg:mr-12 mt-8'>
 
         <div className=' flex flex-col lg:w-[362px] lg:h-[450px] shadow-md mb-16 rounded-md'>
-          <img src={riceP} className=""/>
+          <img src={riceP} alt="product"/>
           <div className='lg:mr-[29px] lg:ml-[29px]'>
           <p className='text-xl font-bold lg:my-4  text-[#4D4D4D]'>Jollof Rice and Chicken</p>
           <p className='text-[#999999] text-sm'>Fried potato/yam chips with egg sauce or any topping of your choice</p>
@@ -38,7 +38,7 @@ const Products = () => {
           
         </div>
         <div className='  flex flex-col lg:w-[362px] shadow-md mb-16 rounded-md'>
-          <img src={swallowd}/>
+          <img src={swallowd} alt="product" />
            <div className='lg:mr-[29px] lg:ml-[29px]'>
            <p className='text-xl font-bold lg:my-4  text-[#4D4D4D]'>Swallow with Draw Soup</p>
           <p className='text-[#999999] text-sm'>Fried potato/yam chips with egg sauce or any topping of your choice</p>
@@ -47,7 +47,7 @@ const Products = () => {
         </div>
 
         <div className='  flex flex-col lg:w-[362px]  shadow-md mb-16 rounded-md'>
-        <img src={fries}/>
+        <img src={fries} alt="product"/>
         <div className='lg:mr-[29px] lg:ml-[29px]'>
         
           <p className='text-xl font-bold lg:my-4  text-[#4D4D4D]'>Fries with Egg sauce</p>
@@ -58,7 +58,7 @@ const Products = () => {
           </div>
 
           <div className=' flex flex-col lg:w-[362px] lg:h-[450px] shadow-md rounded-md'>
-          <img src={swallowe} className=""/>
+          <img src={swallowe} alt="product"/>
           <div className='lg:mr-[29px] lg:ml-[29px]'>
           <p className='text-xl font-bold lg:my-4  text-[#4D4D4D]'>Jollof Rice and Chicken</p>
           <p className='text-[#999999] text-sm'>Fried potato/yam chips with egg sauce or any topping of your choice</p>
