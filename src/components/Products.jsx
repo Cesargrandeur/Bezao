@@ -2,6 +2,7 @@ import React from 'react'
 import riceP from "../asset/ricep.svg"
 import swallowd from "../asset/swallow_withDraw.png"
 import fries from "../asset/fries_eggSauce.png"
+import bgImgb from '../asset/comment.svg'
 import swallowe from "../asset/swallow_withEgusi.png"
 import beans from "../asset/Beans.png"
 import friedrice from "../asset/Fried_rice.png"
@@ -11,6 +12,7 @@ const Products = () => {
   const buttonStyle = "text-white border-0 rounded-full bg-onion  px-4 py-3"
   return (
     <div name="w-full product" className='bg-[#FAFAFA]'>
+      <div className=' hidden lg:block mt-96 '><img className = "lg:w-[150px]" alt='comment' src={bgImgb}/></div>
       <div className='px-2 py-4 text-onion font-bold text-sm lg:ml-20' >Menu</div>
       <div className='grid lg:grid-cols-2 items-center lg:mr-24 '>
         
