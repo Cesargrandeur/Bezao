@@ -12,23 +12,23 @@ const Products = () => {
   const buttonStyle = "text-white border-0 rounded-full bg-onion  px-4 py-3"
   return (
     <div name="w-full product" className='bg-[#FAFAFA]'>
-      <div className=' hidden lg:block mt-96 '><img className = "lg:w-[150px]" alt='comment' src={bgImgb}/></div>
+      <div className=' lg:hidden flex justify-end'><img className = "w-[100px] mr-4" alt='comment' src={bgImgb}/></div>
       <div className='px-2 py-4 text-onion font-bold text-sm lg:ml-20' >Menu</div>
       <div className='grid lg:grid-cols-2 items-center lg:mr-24 '>
         
         <p className='px-2 text-2xl font-bold lg:text-4xl lg:ml-20'>Current menu</p>
         <div className="lg:justify-self-end">
-            <ul className='outline outline-1 outline-offset-2 flex justify-between px-1 w-[400px] rounded outline-[#B5B5BD]'>
+            <ul className='mt-2 ml-3 outline outline-1 outline-offset-2 flex justify-between px-1 w-[465px] rounded outline-[#B5B5BD]'>
                 <li className='bg-onion px-2 rounded-md text-white'>All</li>
-                <li>Rice</li>
-                <li>Beans</li>
-                <li>Fries</li>
-                <li>Swallow</li>
-                <li>Other</li>
+                <li className="text-[#575758]">Rice</li>
+                <li className="text-[#575758]">Beans</li>
+                <li className="text-[#575758]">Fries</li>
+                <li className="text-[#575758]">Swallow</li>
+                <li className="text-[#575758]">Other</li>
             </ul>
         </div>
       </div>
-      <div className='grid sm:grid-cols-2 lg:grid-cols-3  lg:ml-20 lg:mr-12 mt-8'>
+      <div className='grid mx-4 gap-4 sm:grid-cols-2 lg:grid-cols-3  lg:ml-20 lg:mr-12 mt-8'>
 
         <div className=' flex flex-col lg:w-[362px] lg:h-[450px] shadow-md mb-16 rounded-md'>
           <img src={riceP} alt="product"/>
@@ -59,7 +59,7 @@ const Products = () => {
          
           </div>
 
-          <div className=' flex flex-col lg:w-[362px] lg:h-[450px] shadow-md rounded-md'>
+          <div className=' flex flex-col lg:w-[362px]  shadow-md mb-16 rounded-md'>
           <img src={swallowe} alt="product"/>
           <div className='lg:mr-[29px] lg:ml-[29px]'>
           <p className='text-xl font-bold lg:my-4  text-[#4D4D4D]'>Jollof Rice and Chicken</p>
@@ -86,14 +86,8 @@ const Products = () => {
           </div>
         </div>
       </div>
-
-      
-
-      
-
-    
-      
-      <div className='lg:mt-[70px]  flex justify-center'><button className={`text-xs lg:mb-[166px] ${buttonStyle}`}> Full Menu</button></div>
+  
+      <div className=' flex justify-center'><button className={`text-xs mt-[30px] mb-[80px] lg:mb-[166px] ${buttonStyle}`}> Full Menu</button></div>
     </div>
   )
 }
