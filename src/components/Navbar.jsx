@@ -29,7 +29,7 @@ const Navbar = () => {
                 {!nav &&
                     <div className='flex items-center '>
                         <a href="/" > <img className='lg:ml-40 ' src={logo} alt="logo" /> </a>
-                        <div className='font-extrabold w-16  ml-3 align-middle'>Meals</div>
+                        <div className='font-extrabold w-16  ml-3 '>Meals</div>
                     </div>
                 }
 
@@ -48,7 +48,7 @@ const Navbar = () => {
 
                 {/* DropDown */}
                 {nav &&
-                    <div className="hidden:shadow-md z-[20] absolute top-0 left-0 w-full  h-[814] bg-white">
+                    <div className="z-[20] absolute top-0 left-0 w-full  h-[814] bg-white">
                         <a onClick={handleClick} className="mb-24 absolute right-12 top-9"><XIcon className='w-5' /></a>
 
 

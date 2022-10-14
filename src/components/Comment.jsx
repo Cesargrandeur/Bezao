@@ -1,10 +1,14 @@
 import React from 'react'
 import samson from "../asset/samson.png"
 import quote from "../asset/quote.svg"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/bundle';
+import { Pagination } from 'swiper';
 
-const Comment = () => {
-  return (
-    <div className='grid lg:grid-cols-3 gap-4 bg-[#DA374326]'>
+const commentSlide = () =>{
+ return(
+    <SwiperSlide className='grid lg:grid-cols-3 gap-4 bg-[#DA374326]'>
         <div className='lg:ml-20 lg:mt-24 mt-8'>
             <p className='ml-6 text-[#363A40] font-bold text-2xl lg:text-4xl lg:w-[286px]'>What our customers say about us</p>
             <p className='ml-6 text-[#67758D] text-xs lg:text-sm lg:w-[286px] mt-4'>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
@@ -23,8 +27,27 @@ const Comment = () => {
             </div>
             <img className='w-[14px] lg:w-[16px] mb-40 mr-4' alt='quote' src={quote}/>
         </div>
-      
-    </div>
+    </SwiperSlide>
+ )
+}
+
+const Comment = () => {
+  return (
+    <Swiper
+      spaceBetween={50}
+      modules={[ Pagination ]}
+      slidesPerView={1}
+      pagination={{ clickable: true }}
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
+   {commentSlide()}
+   {commentSlide()}
+   {commentSlide()}
+   {commentSlide()}
+   {commentSlide()}
+    </Swiper>
+    
   )
 }
 
