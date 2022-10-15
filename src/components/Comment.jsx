@@ -4,7 +4,8 @@ import quote from "../asset/quote.svg"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/bundle';
-import { Pagination } from 'swiper';
+import { Pagination, Autoplay } from 'swiper';
+import 'swiper/css/autoplay';
 
 const commentSlide = () =>{
  return(
@@ -35,9 +36,10 @@ const Comment = () => {
   return (
     <Swiper
       spaceBetween={50}
-      modules={[ Pagination ]}
+      modules={[ Pagination, Autoplay ]}
       slidesPerView={1}
       pagination={{ clickable: true }}
+      autoplay = {{delay: 2000}}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
